@@ -28,7 +28,7 @@ return function(guiObject, frequency)
 	while task.wait() do
 		local str = ""
 		local count = total
-		for _, sub in pairs(s) do
+		for _, sub in ipairs(s) do
 			if string.match(sub, "%a+%b()") then
 				count -= 1
 				local color = Color3.fromHSV(-math.atan(math.tan((os.clock() + count/math.pi)/frequency))/math.pi + 0.5, 1, 1)
