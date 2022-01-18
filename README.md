@@ -1,5 +1,5 @@
 # Moving Rainbow Gradient Text
-Moving rainbow gradient text for text-rendering gui objects using string patterns. The effect is made using an equation I came up with using trig functions. Originally made as a solution to a [DevForum question](https://devforum.roblox.com/t/481569/11).
+Moving rainbow gradient text using string patterns for gui objects with text-rendering properties. The effect is done using an equation I came up with using trig functions. Originally made as a solution to a [DevForum question](https://devforum.roblox.com/t/481569/11).
 
 ## Parameters
 | Name | Type | Description |
